@@ -11,12 +11,12 @@
 		403BAD9729AA8AF0001C5D05 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BAD9629AA8AF0001C5D05 /* RecipeListView.swift */; };
 		403BAD9929AA8AF1001C5D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403BAD9829AA8AF1001C5D05 /* Assets.xcassets */; };
 		403BAD9C29AA8AF1001C5D05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403BAD9B29AA8AF1001C5D05 /* Preview Assets.xcassets */; };
-		403BADA829AA9301001C5D05 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 403BADA729AA9301001C5D05 /* recipes.json */; };
 		403BADAB29AA9416001C5D05 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BADAA29AA9416001C5D05 /* Recipe.swift */; };
 		403BADAD29AA988E001C5D05 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BADAC29AA988E001C5D05 /* RecipeModel.swift */; };
 		403BADAF29AAA335001C5D05 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BADAE29AAA335001C5D05 /* DataService.swift */; };
 		403DC27429F8499300F985B4 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DC27329F8499300F985B4 /* RecipeDetailView.swift */; };
 		403DC27629F884E300F985B4 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DC27529F884E300F985B4 /* RecipeTabView.swift */; };
+		403DC27829F970BD00F985B4 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 403DC27729F970BD00F985B4 /* recipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +26,12 @@
 		403BAD9829AA8AF1001C5D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403BAD9B29AA8AF1001C5D05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		403BAD9D29AA8AF1001C5D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		403BADA729AA9301001C5D05 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		403BADAA29AA9416001C5D05 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		403BADAC29AA988E001C5D05 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		403BADAE29AAA335001C5D05 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		403DC27329F8499300F985B4 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		403DC27529F884E300F985B4 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		403DC27729F970BD00F985B4 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../Downloads/iOS Foundations 2021/Module 4/Lesson 05/recipes.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 		403BADA929AA9346001C5D05 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				403BADA729AA9301001C5D05 /* recipes.json */,
+				403DC27729F970BD00F985B4 /* recipes.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -185,8 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				403BAD9C29AA8AF1001C5D05 /* Preview Assets.xcassets in Resources */,
-				403BADA829AA9301001C5D05 /* recipes.json in Resources */,
 				403BAD9929AA8AF1001C5D05 /* Assets.xcassets in Resources */,
+				403DC27829F970BD00F985B4 /* recipes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
