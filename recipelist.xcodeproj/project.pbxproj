@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4009994129FEB6B8003C3FA3 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4009994029FEB6B8003C3FA3 /* Rational.swift */; };
 		403BAD9529AA8AF0001C5D05 /* recipelistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BAD9429AA8AF0001C5D05 /* recipelistApp.swift */; };
 		403BAD9729AA8AF0001C5D05 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BAD9629AA8AF0001C5D05 /* RecipeListView.swift */; };
 		403BAD9929AA8AF1001C5D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403BAD9829AA8AF1001C5D05 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4009994029FEB6B8003C3FA3 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		403BAD9129AA8AF0001C5D05 /* recipelist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipelist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403BAD9429AA8AF0001C5D05 /* recipelistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipelistApp.swift; sourceTree = "<group>"; };
 		403BAD9629AA8AF0001C5D05 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4009993F29FEB683003C3FA3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4009994029FEB6B8003C3FA3 /* Rational.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		403BAD8829AA8AF0001C5D05 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		403BAD9329AA8AF0001C5D05 /* recipelist */ = {
 			isa = PBXGroup;
 			children = (
+				4009993F29FEB683003C3FA3 /* Utilities */,
 				403BAD9429AA8AF0001C5D05 /* recipelistApp.swift */,
 				403BADA329AA903B001C5D05 /* Views */,
 				403BADA429AA9046001C5D05 /* ViewModels */,
@@ -202,6 +213,7 @@
 			files = (
 				403BADAB29AA9416001C5D05 /* Recipe.swift in Sources */,
 				403DC27429F8499300F985B4 /* RecipeDetailView.swift in Sources */,
+				4009994129FEB6B8003C3FA3 /* Rational.swift in Sources */,
 				403BADAD29AA988E001C5D05 /* RecipeModel.swift in Sources */,
 				403BAD9729AA8AF0001C5D05 /* RecipeListView.swift in Sources */,
 				403BAD9529AA8AF0001C5D05 /* recipelistApp.swift in Sources */,
